@@ -1,0 +1,53 @@
+.picsfree{
+    max-height: 150px !important;
+    width: 150px !important;
+   
+    background-position: center center !important;
+    background-size: cover !important;
+}
+.destacar{
+    overflow-x: auto !important;
+}
+.destacar::-webkit-scrollbar{
+   display: none;
+}
+.destacar::-moz-scrollbar{
+    display: none;
+ }
+ .destacar::-ms-scrollbar{
+    display: none;
+ }
+ .destacar::-o-scrollbar{
+    display: none;
+ }
+.jcarousel-control-next, .jcarousel-control-prev{
+    display: none;
+}
+#banner{
+    height: 155px;
+    background: #3a9ced;
+    text-shadow: none !important;
+    color: #fafafa;
+    margin-top: 1rem;
+
+}
+#banner .col-4{
+    background: url('../img/procura.png') no-repeat;
+    background-size: cover;
+    height: 160px;
+    padding: 0 !important;
+    margin-left: 0% !important;
+    margin-top: -1%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.picsfree{
+   /* height: 100px;
+    width: 100px; */
+}
+#custom-cards h3{
+   
+   overflow: hidden;
+    white-space: pre-line;
+    text-overflow: ellipsis;
+}
